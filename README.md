@@ -1,5 +1,5 @@
-# my-first-project
+# my-hw-2
 
-This is my first project HW-1!
+This is my HW-2!
 
 Test README file.
