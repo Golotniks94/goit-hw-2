@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <title>WebStudio</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Normalize -->
     <link
       rel="stylesheet"
@@ -12,31 +21,41 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header section -->
-    <header id="home">
-      <nav>
-        <a href="./index.html"> Web<span>Studio</span> </a>
-        <ul>
-          <li>
-            <a href="#studio">Studio</a>
+    <header class="header-page" id="home">
+      <!-- Navigation menu -->
+      <nav class="nav">
+        <a class="logo" href="./index.html">
+          Web<span class="logo-studio">Studio</span>
+        </a>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#studio">Studio</a>
           </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
-          <li>
-            <a href="#contacts">Contacts</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Contacts</a>
           </li>
         </ul>
 
-        <address>
-          <ul>
-            <li>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <!-- Address list -->
+        <address class="header-contacts">
+          <ul class="header-contacts-list">
+            <li class="header-contacts-item">
+              <a class="header-contacts-link" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
             </li>
-            <li>
-              <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+            <li class="header-contacts-item">
+              <a class="header-contacts-link" href="tel:+11(000)111-11-11">
+                +11 (000) 111-11-11
+              </a>
             </li>
           </ul>
         </address>
@@ -44,14 +63,14 @@
     </header>
 
     <!-- Main section -->
-    <main id="studio">
+    <main class="main-page">
       <!-- Hero section -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero-section">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="btn hero-button" type="button">Order Service</button>
       </section>
 
-      <!-- Features section -->
+      <!-- Features section 1 -->
       <section>
         <h2>Features</h2>
         <ul>
@@ -86,7 +105,7 @@
         </ul>
       </section>
 
-      <!-- Our Team -->
+      <!-- Team Section 2 -->
       <section>
         <h2>Our Team</h2>
         <ul>
@@ -133,7 +152,7 @@
         </ul>
       </section>
 
-      <!-- Our Portfolio -->
+      <!-- Portfolio Section 3 -->
       <section>
         <h2>Our Portfolio</h2>
         <ul>
